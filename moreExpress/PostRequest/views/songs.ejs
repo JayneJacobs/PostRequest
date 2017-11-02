@@ -1,0 +1,13 @@
+<h1>Song List</h1>
+
+<% songs.forEach(function(song){ %>
+    <li><%= song %></li>
+    
+
+<% }); %>
+
+<form action="/adSong" method="POST" >
+    <input type="text" name="newSong" placeholder= "Song">
+    <button>New Song</button>
+    
+</form>

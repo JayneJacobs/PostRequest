@@ -1,0 +1,14 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "1. Create a brand new Express app from scratch 2. Create a package.json using 'npm init' and add express as a dependency 3. In the main app.js file add 3 routes: 4.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jayne",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
